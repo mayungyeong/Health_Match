@@ -48,22 +48,29 @@ node server.js
 
 ## 👀 실행 화면
 - 메인페이지
+
 ![main_login](https://user-images.githubusercontent.com/72336796/220347854-62bb1271-2b9b-49cc-9ba0-2b0a5826d6e8.PNG)
 
 - 커뮤니티 페이지
+
 ![community](https://user-images.githubusercontent.com/72336796/220349549-2773887e-99c4-4106-a013-5de56199f93a.PNG)
 
 - 새로운 글 작성 페이지
+
 ![new_post](https://user-images.githubusercontent.com/72336796/220348308-97a8019b-8e90-400c-b9c7-476e488d0b6f.PNG)
 
 - 상세 글 페이지
+
 ![comment](https://user-images.githubusercontent.com/72336796/220348358-701bc689-3f37-4e2e-912b-82a16cf8e215.PNG)
 
 - 매칭 페이지
+
 ![matching](https://user-images.githubusercontent.com/72336796/220348386-f8185d19-bbe2-4ce9-9586-1e33e2a2226a.PNG)
 
 - 매칭 리스트 페이지
+
 ![matching_list](https://user-images.githubusercontent.com/72336796/220348402-711c3289-fed5-454f-b5e9-c0fd8d33bb6a.PNG)
 
 - 매칭 완료 페이지
+
 ![matching_complete](https://user-images.githubusercontent.com/72336796/220348411-f02ce3cf-44e1-4a18-ac1d-65a4c46640df.PNG)
