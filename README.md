@@ -9,9 +9,13 @@
 - 무료 강사분들의 홍보 효과도 덤!
 
 ## 📚 Tech
-- Html, css, React.js
+- Html, css, javascript, React.js
 - Node.js
 - MySQL
+
+## 🌎 Setting
+- Visual Code
+- MySQL Workbench
 
 ## 🖐 담당 업무
 >매칭(2), 커뮤니티(2) 중 커뮤니티 부분을 담당했어요 !
