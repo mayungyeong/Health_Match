@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import homehealth from './img/health.jpg';
+import homehealth from './img/health.png';
 import Footer from './Footer';
 import './Home.css';
 

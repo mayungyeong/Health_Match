@@ -48,7 +48,7 @@ export default function MatchingList() {
         });
     };
 
-    function ListItem({ select_id, face, area, day, time, free }) {
+    function ListItem({ t_id, face, area, day, time, free }) {
 
         if (free === "무료")
         {
@@ -56,7 +56,7 @@ export default function MatchingList() {
                 <form onSubmit={handleSubmit(onValid)}>
                     <div style={{ textDecoration: 'none', color: 'black'}}>
                         <div className="list-item">
-                            <div className="t_id">{select_id}</div>
+                            <div className="t_id">{t_id}</div>
                             <Button className="curriculum" size="small" href="/curriculumdetail">커리큘럼</Button>
                             <input className="face" value={face} {...register("face")}></input>
                             <input className="area" value={area} {...register("area")}></input>
@@ -74,7 +74,7 @@ export default function MatchingList() {
                 <form onSubmit={handleSubmit(onValid)}>
                     <div style={{ textDecoration: 'none', color: 'black'}}>
                         <div className="list-item">
-                            <div className="t_id">{select_id}</div>
+                            <div className="t_id">{t_id}</div>
                             <Button className="curriculum" size="small" href="/curriculumdetail">커리큘럼</Button>
                             <input className="face" value={face} {...register("face")}></input>
                             <input className="area" value={area} {...register("area")}></input>
@@ -93,7 +93,7 @@ export default function MatchingList() {
         <body className="body">
             <div className="footer_fix">
                 <Navbar />
-                <div classNmae="main">
+                <div className="main">
                     <div className='detail_inner'>
                         <div className='detail_cont'>
                             <main className="matching-list-template">

@@ -23,7 +23,7 @@ export default function Comment(post_id) {
         e.preventDefault();
         await axios.post("http://localhost:5000/post/comment", {
             post_id: post_id.post_id,
-            comment_writer:"강채연",
+            comment_writer:"user",
             contents: e.target.contents.value,
             comment_date : timeFormat
         }, {

@@ -3,7 +3,6 @@ const app = express();
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
-const test = require("./Router/test");
 const users = require("./Router/users");
 const post = require("./Router/post");
 const user_match = require("./Router/user_match");
@@ -16,7 +15,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
 
-app.use("/hi", test);
 app.use("/users", users);
 app.use("/post", post);
 app.use("/user_match", user_match);

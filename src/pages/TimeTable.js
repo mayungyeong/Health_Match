@@ -239,8 +239,7 @@ class AppointmentFormContainerBasic extends React.PureComponent {
     const matchSubmit = (e) => {
       e.preventDefault();
       const data = {
-          t_id : "no",
-          title: "no",
+          title: "title",
           face : e.target.face.value,
           area : e.target.area.value,
           day : e.target.day.value,
